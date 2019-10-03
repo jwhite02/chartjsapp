@@ -17,7 +17,6 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route path="/line" component={Line} />
           <Route path="/bar" render={(props) => {
-            console.log(props)
             return (<Bar />)
           }
           } />
