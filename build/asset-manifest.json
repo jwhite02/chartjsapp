@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jwhite02/chartjsapp/static/css/main.b100e6da.chunk.css",
+    "main.js": "/jwhite02/chartjsapp/static/js/main.31368214.chunk.js",
+    "main.js.map": "/jwhite02/chartjsapp/static/js/main.31368214.chunk.js.map",
+    "runtime-main.js": "/jwhite02/chartjsapp/static/js/runtime-main.837db9ad.js",
+    "runtime-main.js.map": "/jwhite02/chartjsapp/static/js/runtime-main.837db9ad.js.map",
+    "static/js/2.ce3f4e74.chunk.js": "/jwhite02/chartjsapp/static/js/2.ce3f4e74.chunk.js",
+    "static/js/2.ce3f4e74.chunk.js.map": "/jwhite02/chartjsapp/static/js/2.ce3f4e74.chunk.js.map",
+    "index.html": "/jwhite02/chartjsapp/index.html",
+    "precache-manifest.de95d722e784b5ff744088f9d652847c.js": "/jwhite02/chartjsapp/precache-manifest.de95d722e784b5ff744088f9d652847c.js",
+    "service-worker.js": "/jwhite02/chartjsapp/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/jwhite02/chartjsapp/static/css/main.b100e6da.chunk.css.map"
+  }
+}
