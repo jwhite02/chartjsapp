@@ -2,7 +2,7 @@
   "name": "chartjsgraphs",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/jwhite02/chartjsapp",
+  "homepage": "https://jwhite02.github.io/chartjsapp/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "chart.js": "^2.8.0",
