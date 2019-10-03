@@ -11,16 +11,11 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.1.2"
   },
-  "jest": {
-    "setupTestFrameworkScriptFile": "./setupTests.js",
-    "setupFiles": [
-      "jest-canvas-mock"
-    ]
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:coverage": "react-scripts test --watchAll --coverage",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -42,7 +37,11 @@
     "canvas": "^2.6.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
+    "jest": "^24.9.0",
     "jest-canvas-mock": "^2.1.1",
+    "jest-environment-enzyme": "^7.1.1",
+    "jest-enzyme": "^7.1.1",
+    "log": "^6.0.0",
     "react-test-renderer": "^16.10.1"
   }
 }

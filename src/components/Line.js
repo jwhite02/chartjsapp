@@ -10,36 +10,40 @@ const Line = () => {
     useEffect(() => {
         const lineref = mylineRef.current.getContext("2d")
 
-        const lineChart = new Chart(lineref, {
-            type: 'line',
-            data: {
-                labels: ['Jan', 'Feb', 'March', 'April', 'June', 'July', 'Aug', 'Sept'],
-                datasets: [
-                    {
-                        label: "First Data",
-                        data: [3, 7, 12, 17, 21, 28, 32, 41],
-                        backgroundColor: 'rgba(24,23, 75, 0.6)'
-                    },
-                    {
-                        label: "Second Data",
-                        data: [5, 11, 15, 22, 30, 36, 40, 45],
-                        backgroundColor: 'rgba(20,233, 75, 0.6)'
-                    }
-                ]
-            },
-            options: {
-                responsive: true,
-                title: {
-                    display: true,
-                    text: "This is the Line Title",
-                    fontFamily: "Cambria"
+        try {
+            new Chart(lineref, {
+                type: 'line',
+                data: {
+                    labels: ['Jan', 'Feb', 'March', 'April', 'June', 'July', 'Aug', 'Sept'],
+                    datasets: [
+                        {
+                            label: "First Data",
+                            data: [3, 7, 12, 17, 21, 28, 32, 41],
+                            backgroundColor: 'rgba(24,23, 75, 0.6)'
+                        },
+                        {
+                            label: "Second Data",
+                            data: [5, 11, 15, 22, 30, 36, 40, 45],
+                            backgroundColor: 'rgba(20,233, 75, 0.6)'
+                        }
+                    ]
                 },
-                legend: {},
-                tooltips: {},
-                scales: {}
+                options: {
+                    responsive: true,
+                    title: {
+                        display: true,
+                        text: "This is the Line Title",
+                        fontFamily: "Cambria"
+                    },
+                    legend: {},
+                    tooltips: {},
+                    scales: {}
 
-            }
-        });
+                }
+            });
+        } catch (error) {
+            console.log(error)
+        }
     });
 
     return (
